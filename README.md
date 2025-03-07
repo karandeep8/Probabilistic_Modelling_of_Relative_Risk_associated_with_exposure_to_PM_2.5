@@ -32,7 +32,7 @@ These scripts **compute statistical measures** such as **mean, variance, and ent
 
 ---
 
-### 3️⃣ Risk Assessment and Modelling
+### 3️⃣ Risk Data Producing
 These scripts estimate the **relative risk** associated with **PM₂.₅ exposure** using **probabilistic models**.
 - **`relative_risk.py`** → Develops the **probabilistic risk model** for PM₂.₅ exposure.
 - **`risk_data.py`** → Processes and **organizes risk-related data** for further analysis.
@@ -41,8 +41,8 @@ These scripts estimate the **relative risk** associated with **PM₂.₅ exposur
 ---
 
 ### 4️⃣ MATLAB Files
-These **MATLAB scripts** validate statistical models and **risk assessment calculations**.
-- **`test_15.m` to `test_41.m`** → Perform **different test scenarios** for validating data analysis models.
+These **MATLAB scripts** are for **risk modelling approaches**.
+- **`test_15.m` to `test_41.m`** → Perform **risk modelling approaches**.
 
 ---
 
@@ -55,9 +55,9 @@ These **MATLAB scripts** validate statistical models and **risk assessment calcu
 ## How It Works
 1. **Preprocessing:** The data is first **cleaned, formatted, and averaged** using Python scripts.
 2. **Statistical Analysis:** The **mean, variance, and entropy measures** are computed.
-3. **Risk Estimation:** The **relative risk model** is applied to quantify **health risks**.
+3. **Risk Data:** The **relative risk model** is applied to quantify **health risks**.
 4. **Visualization:** Graphs and **statistical outputs** are generated for analysis.
-5. **Validation:** MATLAB scripts verify the **accuracy of risk modelling approaches**.
+5. **Different Scenarios:** MATLAB scripts for **risk modelling approaches**.
 
 ---
 
